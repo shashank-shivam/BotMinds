@@ -48,7 +48,7 @@ def generate_free_embeddings(request):
     embeddings_df = pd.DataFrame(embeddings_records)
 
     # Write embeddings to BigQuery
-    print("Loading table from dataframe.")
+    print("Loading table from dataframe")
     job = bq_client.load_table_from_dataframe(embeddings_df, DESTINATION_TABLE_REF)
     job.result()
 
