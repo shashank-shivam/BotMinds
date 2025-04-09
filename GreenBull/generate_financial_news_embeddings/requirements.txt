@@ -1,0 +1,7 @@
+google-cloud-bigquery
+sentence-transformers==2.2.2
+numpy
+pandas
+transformers==4.30.0
+torch==2.0.0
+huggingface_hub==0.22.2
